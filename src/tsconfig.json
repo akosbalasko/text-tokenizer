@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "declaration": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "lib": ["es7", "dom"],
+      "mapRoot": "./../dist",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "./../dist",
+      "sourceMap": true,
+      "skipLibCheck": true,
+      "target": "es6",
+      "typeRoots": [
+        "../node_modules/@types"
+      ]
+    }
+  }

@@ -1,0 +1,40 @@
+{
+  "name": "text-tokenizer",
+  "version": "1.0.0",
+  "description": "Library to tokenize text to paragraphs, sentences, subsentences and words",
+  "main": "dist/tokenizer.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "npm run helper:deldist && npm run helper:copy && tsc -p ./src",
+    "helper:copy": "cpr package.json ./dist/package.json -o",
+    "helper:deldist": "rimraf ./dist/*",
+    "lint": "tslint \"./src/**/*.ts\"",
+    "coverage": "nyc mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akosbalasko/text-tokenizer.git"
+  },
+  "keywords": [
+    "tokenizer",
+    "text",
+    "nlp"
+  ],
+  "author": "Akos Balasko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "@types/node": "11.13.6",
+    "chai": "4.2.0",
+    "mocha": "5.2.0",
+    "nyc": "15.0.1",
+    "sinon": "9.0.2",
+    "sinon-express-mock": "2.2.1",
+    "ts-node": "8.10.1",
+    "tslint": "5.16.0",
+    "typescript": "3.8.3"
+  },
+  "dependencies": {
+    "@types/mocha": "8.0.3"
+  }
+}
