@@ -1,4 +1,4 @@
-# Text Tokenizer
+# Simple Text Tokenizer
 
 Tokenize text to paragraphs, sentences, subsentences, and words.
 
