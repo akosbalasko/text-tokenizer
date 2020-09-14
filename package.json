@@ -2,7 +2,7 @@
   "name": "simple-text-tokenizer",
   "version": "1.0.0",
   "description": "Library to tokenize text to paragraphs, sentences, subsentences and words",
-  "main": "dist/tokenizer.js",
+  "main": "dist/text-tokenizer.js",
   "scripts": {
     "test": "mocha",
     "build": "npm run helper:deldist && npm run helper:copy && tsc -p ./src",
