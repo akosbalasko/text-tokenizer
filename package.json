@@ -1,6 +1,6 @@
 {
   "name": "simple-text-tokenizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library to tokenize text to paragraphs, sentences, subsentences and words",
   "main": "dist/text-tokenizer.js",
   "scripts": {
