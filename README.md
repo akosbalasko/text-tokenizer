@@ -7,7 +7,7 @@ Tokenize text to paragraphs, sentences, subsentences, and words.
 Use [npm](http://npmjs.org):
 
 ```bash
-npm install text-tokenizer
+npm install simple-text-tokenizer
 ```
 
 ## How to
